@@ -32,7 +32,7 @@ const ChallengeFriend: React.FC = () => {
         <div className={`popup-overlay ${showPopup ? "show" : ""}`}>
           <div className="popup">
             <h3>Want to Invite a Friend ?🥸</h3>
-            <img src="/public/welcome.png" alt="Dynamic Image" />
+            <img src="/welcome.png" alt="Dynamic Image" />
             <p>Share this link with your friend:</p>
             <input type="text" value={inviteLink} readOnly />
             <button onClick={() => navigator.clipboard.writeText(inviteLink)}>

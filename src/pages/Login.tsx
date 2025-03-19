@@ -94,7 +94,7 @@ const Login: React.FC = () => {
       </div>
 
       <div className="login-image">
-        <img src="/public/globetrotter.png" alt="Globetrotter Game" />
+        <img src="/globetrotter.png" alt="Globetrotter Game" />
       </div>
     </div>
   );
