@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import axios from "axios";
-import { AUTH_REGISTER, API_INVITE_SCORE } from "../constants";
+import { AUTH_REGISTER } from "../constants";
 import "../styles/InvitePage.css";
 
 const InvitePage: React.FC = () => {
