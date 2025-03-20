@@ -1,6 +1,6 @@
 export const API_BASE_URL =
   import.meta.env.VITE_API_URL ||
-  "https://globetrotter-backend-three.vercel.app";
+  "https://globetrotter-backend-nine.vercel.app";
 export const AUTH_REGISTER = `${API_BASE_URL}/auth/register`;
 export const AUTH_LOGIN = `${API_BASE_URL}/auth/login`;
 export const FRONTEND_URL =
